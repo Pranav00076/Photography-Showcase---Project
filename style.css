@@ -51,6 +51,7 @@ nav li a{
     margin: 1em;
     box-sizing: border-box;
     padding: 0.4rem;
+    overflow: hidden;
 }
 #rowtitle{
     margin-left: 1.5em;
@@ -64,6 +65,7 @@ nav li a{
     justify-items: center;
     align-items: center;
     justify-content: center;
+    object-fit: cover;
     border: 0.5px solid black;
 
 }
