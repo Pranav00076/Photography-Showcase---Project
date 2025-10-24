@@ -14,7 +14,7 @@ nav {
     padding: 0.7em;
     align-items: center;
     display: flex;
-    gap: 5rem;
+    gap: 3rem;
     font-size: 1.8rem;
     height: 2rem;
     
@@ -44,7 +44,7 @@ nav li a{
 }
 
 .cont .imgbox{
-    background-color: transparent;
+    background-color: black;
     border: 1px solid black;
     height: 20rem;
     width: 20rem;
