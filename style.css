@@ -24,7 +24,7 @@ nav li{
 }
 nav ul {
     display: flex;
-    gap: 6rem;
+    gap: 12rem;
     font-family: "Caprasimo", serif;
     font-weight: 400;
     font-style: normal;
@@ -37,7 +37,7 @@ nav li a{
 }
 .cont{
     display: flex;
-    gap: 1em;
+    gap: 0.5em;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
@@ -46,11 +46,11 @@ nav li a{
 .cont .imgbox{
     background-color: transparent;
     border: 1px solid black;
-    height: 20rem;
-    width: 20rem;
+    height: 12rem;
+    width: 30rem;
     margin: 1em;
     box-sizing: border-box;
-    padding: 0.4rem;
+    padding: 0.3rem 0.55rem;
     overflow: hidden;
 }
 #rowtitle{
@@ -61,11 +61,47 @@ nav li a{
     font-size: 2.5rem;
 }
 .cont .imgbox img{
-    width: 19rem;
+    width: 20rem;
     justify-items: center;
     align-items: center;
     justify-content: center;
     object-fit: cover;
     border: 0.5px solid black;
 
+}
+
+.dropdown-content {
+    display: none; /* Hidden by default */
+    position: absolute;
+    background-color: #ffffff; /* White background for visibility */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+    left: 0; /* Align dropdown to the left edge of the "Categories" link */
+    top: 100%; /* Position right below the "Categories" link */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 0.5em 0;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 1.2rem; /* Smaller font for menu items */
+    font-family: sans-serif; /* Use a readable font for dropdown */
+    font-weight: normal;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+        /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
 }
