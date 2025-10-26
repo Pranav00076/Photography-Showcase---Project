@@ -35,7 +35,23 @@ nav li a{
     text-decoration: none;
     
 }
+.bigcont{
+    margin: 40px;
+    margin-left: 5em;
+}
+.bigcont img{
+    text-align: center;
+    margin: 1em;
+    width: 20%;
+    gap: 20px;
+    box-shadow: 4px 3px 16px 2px #2c2b2b;
+    transition: transform 0.4s ease-out;
+}
+.bigcont img:hover {
+    transform: scale(2);
+}
 .cont{
+    
     display: flex;
     gap: 0.5em;
     justify-content: center;
@@ -44,7 +60,7 @@ nav li a{
 }
 
 .cont .imgbox{
-    background-color: black;
+    background-color: transparent;
     border: 1px solid black;
     height: 12rem;
     width: 30rem;
@@ -59,13 +75,36 @@ nav li a{
     font-weight: 500;
     font-style: normal;
     font-size: 2.5rem;
+    margin: 20px;
+    text-decoration: underline;
 }
 .cont .imgbox img{
-    width: 20rem;
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    height:100%;
     object-fit: cover;
     border: 0.5px solid black;
-
+    display: block;
+    transition: transform 0.4s ease-out;
+}
+.cont .imgbox:hover img {
+    transform: scale(1.1);
+}
+h1{
+    width: 100%;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: double;
+    box-shadow: 4px 4px 8px 8px #716f6f;
+}
+#category{
+    border-top: 1px solid black;
+}
+img:active{
+    width: 30em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
