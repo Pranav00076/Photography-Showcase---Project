@@ -49,6 +49,7 @@ nav li a{
     gap: 20px;
     box-shadow: 4px 3px 16px 2px #2c2b2b;
     transition: transform 0.4s ease-out;
+    border-radius: 10%;
 }
 .bigcont img:hover {
     transform: scale(2);
@@ -72,6 +73,7 @@ nav li a{
     padding: 0.3rem 0.55rem;
     overflow: hidden;
     box-shadow: 4px 3px 16px 2px #2c2b2b;
+    border-radius: 10%;
 }
 #rowtitle{
     margin-left: 1.5em;
@@ -80,7 +82,7 @@ nav li a{
     font-style: normal;
     font-size: 3rem;
     margin: 20px;
-    text-decoration: underline;
+    
 }
 .cont .imgbox img{
     width: 100%;
@@ -89,12 +91,12 @@ nav li a{
     border: 0.5px solid black;
     display: block;
     transition: transform 0.4s ease-out;
+    border-radius: 10%;
 }
 .cont .imgbox:hover img {
     transform: scale(1.5);
 }
 h1{
-    width: 100%;
     font-family: "Bungee Spice", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -109,6 +111,7 @@ h1{
 .star{
     margin: 40px;
     margin-left: 5em;
+    
 
 }
 .star img{
@@ -118,6 +121,7 @@ h1{
     gap: 20px;
     box-shadow: 4px 3px 16px 2px #2c2b2b;
     transition: transform 0.4s ease-out;
+    border-radius: 5%;
 }
 .star img:hover{
     transform: scale(2);
