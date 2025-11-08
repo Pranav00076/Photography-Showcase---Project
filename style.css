@@ -3,7 +3,7 @@
     padding:0px;
 }
 body{
-    background: linear-gradient(#faf3e4,rgb(251, 217, 170)) ;
+    background: white
     
 }
 
@@ -16,8 +16,8 @@ nav {
     display: flex;
     font-size: 1.8rem;
     flex-wrap: wrap;
-    gap: clamp(0.5rem, 3vw, 3rem);
-    font-size: clamp(1.2rem, 2.2vw, 2rem);
+    gap: 1rem;
+    font-size: 1rem;
    
     
 }
@@ -26,11 +26,11 @@ nav li{
 }
 nav ul {
     display: flex;
-    gap: clamp(0.75rem, 6vw, 12rem);
+    gap: 2.5rem;
     font-family: "Caprasimo", serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
-    text-align: right;
+    text-align: center;
     margin-left: auto;
     list-style: none;
     flex-wrap: wrap;
@@ -38,17 +38,21 @@ nav ul {
 nav li a{
     color: black;
     text-decoration: none;
-    font-size: clamp(1.2rem, 2vw, 1.6rem);
+    font-size: 1.2rem;
     transition: transform 0.3s ease-out;
     
 }
 nav li a:hover{
-    transform: scale(1.2);
-    color: cadetblue;
+    transform: scale(1.4);
+    color: rgb(41, 121, 121);
+    
 
 }
+nav img{
+    height: 4rem;
+}
 nav img.logo, .logo{
-    height: clamp(40px, 6vw, 64px);
+    height: 1rem;
     width: auto;
     display: block;
 }
@@ -66,7 +70,7 @@ nav img.logo, .logo{
     border-radius: 10%;
 }
 .bigcont img:hover {
-    transform: scale(1.5);
+    transform: scale(1.4);
 }
 .cont{
     
@@ -79,7 +83,7 @@ nav img.logo, .logo{
 
 .cont .imgbox{
     background-color: transparent;
-    border: 1px solid black;
+    
     height: clamp(160px, 18vw, 13rem);
     width: clamp(180px, 30vw, 30rem);
     margin: 1em;
@@ -87,14 +91,14 @@ nav img.logo, .logo{
     padding: 0.3rem 0.55rem;
     overflow: hidden;
     box-shadow: 4px 3px 16px 2px #2c2b2b;
-    border-radius: 10%;
+    
 }
 #rowtitle{
-    margin-left: 1.5em;
+    margin-left: 1.3em;
     font-family: "Pacifico", cursive;
     font-weight: 800;
     font-style: normal;
-    font-size: clamp(1.4rem, 4.5vw, 3rem);
+    font-size: 1.8rem;
     margin: 20px;
     
 }
@@ -105,16 +109,15 @@ nav img.logo, .logo{
     border: 0.5px solid black;
     display: block;
     transition: transform 0.4s ease-out;
-    border-radius: 10%;
 }
 .cont .imgbox:hover img {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 h1{
-    font-family: "Bungee Spice", sans-serif;
+    font-family: "Rubik Gemstones", system-ui;
     font-weight: 400;
     font-style: normal;
-    font-size: clamp(2rem, 6.2vw, 4rem);
+    font-size: 3rem;
     text-align: center;
     text-decoration: double;
     box-shadow: 4px 4px 8px 8px #716f6f;
@@ -138,25 +141,24 @@ h1{
     border-radius: 4%;
 }
 .star img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .foot{
-    background-color: rgb(211, 124, 16);
-    padding: 1rem;
+    background-color: rgb(12, 12, 12);
+    padding: 0.5rem;
     padding-bottom: 0.5rem;
 }
 .foot h3{
     font-family: "Pacifico", cursive;
-    font-weight: 700;
+    font-weight: 400;
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: center;
     color: white;
-    background-color: rgb(82, 52, 2);
-    border: 1px dotted white;
+    background-color: rgb(34, 34, 32);
 }
 .contact{
-    margin: 2rem;
+    margin: 0.75rem;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -165,12 +167,14 @@ h1{
 
 }
 .contact h2{
-    font-size: clamp(1.2rem, 3.2vw, 2.5rem);
+    font-size: 1.5rem;
     color: rgb(250, 237, 237);
     text-transform: uppercase;
 }
 .contact a img{
     transition: transform 0.3s ease-out;
+    height: 40px;
+    width: 40px;
 }
 .contact a img:hover{
     transform: scale(1.3);
