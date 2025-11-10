@@ -116,6 +116,7 @@ nav img.logo, .logo{
 .cont .imgbox:hover img {
     transform: scale(1.1);
 }
+
 h1{
     font-family: "Rubik Gemstones", system-ui;
     font-weight: 400;
